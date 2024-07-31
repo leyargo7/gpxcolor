@@ -1,0 +1,22 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+h1 {
+    position: absolute;
+    white-space: nowrap;
+    animation: slide 10s linear infinite;
+    font-size: 12rem;
+    color: white;
+}
+
+@keyframes slide {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
