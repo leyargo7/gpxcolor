@@ -2,6 +2,8 @@
 # GpxColor
 
 Este proyecto web permite cambiar el color de fondo y una palabra o frase de una pagina de forma remota. Nace de la necesidad de mostrar ciertos mensajes en pantallas dentro de nuestro estudio de producción.
+La tablet o pantalla que se desea mostrar el color y el texto debe apuntar a la url 
+gpxcolor.onrender.com/client
 
 El proyecto está alojado en onrender en su capa gratuita ya que solo se necesita de manera interna y para pruebas. Advierto que la primera vez que se abre tarda algunos minutos en cargar, pero ya es cosa de onrender.
 
@@ -38,11 +40,12 @@ Para utilizar el proyecto necesitas crear un archivo .env en la raíz del proyec
 En la página login por defecto el username es admin y el password sera el valor de la variable ADMIN_PASS
 
 
+
 ## Demo
 
 Click en el enlace para ver como funciona
 
-[Video: GpxColor](https://www.youtube.com)
+[Video: GpxColor](https://www.youtube.com/watch?v=TedINPp067w)
 
 
 ## Authors
