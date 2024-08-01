@@ -4,19 +4,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rec Gpx</title>
+    <link rel="stylesheet" href="admin.css">
 </head>
-<body>
-    <h1>REC</h1>
-    <input type="color" id="colorPicker">
-    <button id="reloadButton">RELOAD CLIENT </button>
-    
-    <br><br>
-    <input type="text" id="textInput" placeholder="message">
-    <button id="sendTextButton">Change Text</button>
+<body class="grid-container">
+    <nav class="navbar">
+        <button id="logoutButton">Log Out</button>
+    </nav>
+    <header class="header">
+        <h1>Gpx Color</h1>
+    </header>
 
-    <br><br>
-    <button id="logoutButton">Log Out</button>
-  
+    <aside class="sidebar">
+        <input type="color" id="colorPicker">
+        <button id="reloadButton">RELOAD CLIENT</button>
+    </aside>
+
+    <article class="main">
+        <input type="text" id="textInput" placeholder="message">
+        <button id="sendTextButton">Change Text</button>
+    </article>
+
+    
+    
+    
+    <footer class="footer">GpxCode leyargo7</footer>
     
     <script type="module" src="/socket.io/socket.io.js"></script>
     <script type="module" src="main.js"></script>

@@ -4,16 +4,27 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Log in Gpx</title>
+    <link rel="stylesheet" href="login.css">
 </head>
-<body>
-    
-    <h1>Log in</h1>
+<body class="grid-container">
+    <header class="header">
+        <h2>Gpx Color</h2>
+    </header>
+    <aside class="sidebar">
+        <h1>Log in</h1>
+    </aside>
+    <article class="main">
+        <form id="loginForm">
+            <input type="text" id="username" placeholder="username" required>
+            <input type="password" id="password" placeholder="password" required>
+            <button type="submit">Conectar</button>
+        </form>
+    </article>
 
-    <form id="loginForm">
-        <input type="text" id="username" placeholder="username" required>
-        <input type="password" id="password" placeholder="password" required>
-        <button type="submit">Log in</button>
-    </form>
+    <footer class="footer">
+        GpxCode leyargo7
+    </footer>
+
     
     <script src="login.js"></script>
 </body>

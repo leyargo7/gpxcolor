@@ -4,9 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
+    <link rel="stylesheet" href="index.css">
 </head>
-<body>
+<body class="grid-container">
     
-    <h1>GOPRAXIS REC</h1>
+    <header class="header">
+        <h1>GPX COLOR</h1>
+    </header>
+    <!-- <nav class="navbar">NAVBAR</nav> -->
+    <!-- <aside class="sidebar">SIDEBAR</aside> -->
+    <article class="main">
+        <button onclick="nextPage()">Start</button>
+    </article>
+    <footer class="footer">
+        GpxCode leyargo7
+    </footer>
+
+    <script>
+        function nextPage(){
+            window.location.href = '/log-in'
+        }
+    </script>
 </body>
 </html>
