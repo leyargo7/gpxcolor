@@ -38,6 +38,8 @@ Para utilizar el proyecto necesitas crear un archivo .env en la raíz del proyec
 `ADMIN_PASS=password`
 
 En la página login por defecto el username es admin y el password sera el valor de la variable ADMIN_PASS
+Si solo quieres probar puedes pasarle el password Ley856
+Recuerda que el cambio de color y texto se aplica sobre la rut gpxcolor.onrender.com/client
 
 
 
